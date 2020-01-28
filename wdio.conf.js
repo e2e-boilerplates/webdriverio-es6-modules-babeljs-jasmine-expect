@@ -1,3 +1,4 @@
+/* eslint no-unused-vars: 0 */
 exports.config = {
   runner: "local",
   path: "/",
@@ -14,8 +15,8 @@ exports.config = {
   jasmineNodeOpts: {
     defaultTimeoutInterval: 60000
   },
-  before: () => {
-    /* eslint-disable-next-line global-require,import/no-extraneous-dependencies */
+  before(capabilities, specs) {
+    // eslint-disable-next-line global-require
     require("@babel/register");
   }
 };
