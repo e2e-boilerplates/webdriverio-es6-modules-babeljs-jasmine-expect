@@ -1,6 +1,6 @@
 # WebdriverIO: (ES6-Modules, BabelJS, Jasmine and Expect)
 
-[![GitHub Actions status | e2e-boilerplates/ebdriverio-es6-modules-babeljs-jasmine-expect](https://github.com/e2e-boilerplates/ebdriverio-es6-modules-babeljs-jasmine-expect/workflows/ebdriverio-es6-modules-babeljs-jasmine-expect/badge.svg)](https://github.com/e2e-boilerplates/ebdriverio-es6-modules-babeljs-jasmine-expect/actions?workflow=ebdriverio-es6-modules-babeljs-jasmine-expect)
+[![GitHub Actions status | e2e-boilerplates/ebdriverio-es6-modules-babeljs-jasmine-expect](https://github.com/e2e-boilerplates/webdriverio-es6-modules-babeljs-jasmine-expect/workflows/webdriverio-es6-modules-babeljs-jasmine-expect/badge.svg)](https://github.com/e2e-boilerplates/webdriverio-es6-modules-babeljs-jasmine-expect/actions?workflow=webdriverio-es6-modules-babeljs-jasmine-expect)
 
 WebdriverIO end-to-end test automation boilerplate, using ES6-Modules, BabelJS, Jasmine and Expect.
 
