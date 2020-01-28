@@ -1,5 +1,6 @@
 // TODO remove
+// export default {
+//   url: "https://e2e-boilerplates.github.io/sandbox/"
+// };
 
-const url = "https://e2e-boilerplates.github.io/sandbox/";
-
-module.exports = url;
+exports.url = "https://e2e-boilerplates.github.io/sandbox/";

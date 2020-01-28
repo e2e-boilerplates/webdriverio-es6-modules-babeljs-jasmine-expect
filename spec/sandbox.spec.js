@@ -1,4 +1,5 @@
-import url from "../data";
+// eslint-disable-next-line import/named
+import { url } from "../data";
 
 describe("Sandbox", () => {
   beforeAll(() => {
