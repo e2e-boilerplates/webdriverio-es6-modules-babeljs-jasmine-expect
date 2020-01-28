@@ -14,8 +14,7 @@ exports.config = {
   jasmineNodeOpts: {
     defaultTimeoutInterval: 60000
   },
-  // eslint-disable-next-line no-unused-vars
-  beforeSession: (config, capabilities) => {
+  before: () => {
     /* eslint-disable-next-line global-require,import/no-extraneous-dependencies */
     require("@babel/register");
   }
