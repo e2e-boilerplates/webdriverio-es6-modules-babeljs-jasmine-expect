@@ -1,4 +1,4 @@
-name: webdriverio-commonjs-jasmine-expect
+name: webdriverio-es6-modules-babeljs-jasmine-expect
 
 on:
   push:

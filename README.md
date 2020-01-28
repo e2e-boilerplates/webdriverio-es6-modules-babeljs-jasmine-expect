@@ -1,12 +1,12 @@
-# WebdriverIO: (CommonJS, Jasmine and Expect)
+# WebdriverIO: (ES6-Modules, BabelJS, Jasmine and Expect)
 
-[![GitHub Actions status | e2e-boilerplates/webdriverio-commonjs-jasmine-expect](https://github.com/e2e-boilerplates/webdriverio-commonjs-jasmine-expect/workflows/webdriverio-commonjs-jasmine-expect/badge.svg)](https://github.com/e2e-boilerplates/webdriverio-commonjs-jasmine-expect/actions?workflow=webdriverio-commonjs-jasmine-expect)
+[![GitHub Actions status | e2e-boilerplates/ebdriverio-es6-modules-babeljs-jasmine-expect](https://github.com/e2e-boilerplates/ebdriverio-es6-modules-babeljs-jasmine-expect/workflows/ebdriverio-es6-modules-babeljs-jasmine-expect/badge.svg)](https://github.com/e2e-boilerplates/ebdriverio-es6-modules-babeljs-jasmine-expect/actions?workflow=ebdriverio-es6-modules-babeljs-jasmine-expect)
 
-WebdriverIO end-to-end test automation boilerplate, using CommonJS, Jasmine and Expect.
+WebdriverIO end-to-end test automation boilerplate, using ES6-Modules, BabelJS, Jasmine and Expect.
 
 ## Getting Started
 
-    git clone git@github.com:e2e-boilerplates/webdriverio-commonjs-jasmine-expect.git
-    git cd webdriverio-commonjs-jasmine-expect
+    git clone git@github.com:e2e-boilerplates/ebdriverio-es6-modules-babeljs-jasmine-expect.git
+    git cd webdriverio-es6-modules-babeljs-jasmine-expect
     npm install
     npm run test

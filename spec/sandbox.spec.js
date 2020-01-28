@@ -1,6 +1,8 @@
+import url from "../data";
+
 describe("Sandbox", () => {
   beforeAll(() => {
-    browser.url("https://e2e-boilerplates.github.io/sandbox/");
+    browser.url(url);
   });
 
   it("should be on Sandbox", () => {
