@@ -1,4 +1,4 @@
-import { url } from "../data";
+import url from "../data";
 
 describe("Sandbox", () => {
   beforeAll(() => {
