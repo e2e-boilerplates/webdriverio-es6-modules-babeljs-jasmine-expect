@@ -1,23 +1,9 @@
 {
-  "name": "webdriverio-es6-modules-babeljs-jasmine-expect",
-  "version": "1.0.0",
-  "description": "WebdriverIO end-to-end test automation boilerplate, using ES6-Modules, BabelJS, Jasmine and Expect.",
-  "scripts": {
-    "lint": "npx eslint --ext .js ./ --fix",
-    "test": "npx wdio"
-  },
-  "keywords": [
-    "webdriverio",
-    "commonjs",
-    "jasmine",
-    "boilerplate",
-    "example",
-    "expect",
-    "e2e",
-    "e2e test"
-  ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-  "license": "MIT",
+  "dependencies": {
+    "@babel/register": "7.8.6"
+  },
+  "description": "WebdriverIO end-to-end test automation boilerplate, using ES6-Modules, BabelJS, Jasmine and Expect.",
   "devDependencies": {
     "@babel/cli": "7.8.4",
     "@babel/core": "7.8.6",
@@ -34,6 +20,7 @@
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-config-prettier": "6.10.0",
     "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-json": "^2.1.0",
     "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-wdio": "5.13.2",
     "husky": "4.2.3",
@@ -41,12 +28,32 @@
     "pretty-quick": "2.0.1",
     "wdio-chromedriver-service": "5.0.2"
   },
-  "dependencies": {
-    "@babel/register": "7.8.6"
-  },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  }
+  },
+  "keywords": [
+    "babeljs",
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "es6",
+    "example",
+    "expect",
+    "integration test",
+    "jasmine",
+    "webdriverio"
+  ],
+  "license": "MIT",
+  "name": "webdriverio-es6-modules-babeljs-jasmine-expect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/webdriverio-es6-modules-babeljs-jasmine-expect.git"
+  },
+  "scripts": {
+    "lint": "npx eslint --ext .js ./ --fix",
+    "test": "npx wdio"
+  },
+  "version": "1.0.0"
 }
