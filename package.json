@@ -35,16 +35,16 @@
   },
   "keywords": [
     "babeljs",
-    "es modules",
+    "es",
     "expect",
     "jasmine",
     "webdriverio"
   ],
   "license": "MIT",
-  "name": "webdriverio-es6-modules-babeljs-jasmine-expect",
+  "name": "webdriverio-es-modules-babeljs-jasmine-expect",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplates/webdriverio-es6-modules-babeljs-jasmine-expect.git"
+    "url": "git+https://github.com/e2e-boilerplates/webdriverio-es-modules-babeljs-jasmine-expect.git"
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
