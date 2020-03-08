@@ -1,9 +1,9 @@
 {
-  "author": "",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "dependencies": {
     "@babel/register": "7.8.6"
   },
-  "description": "WebdriverIO end-to-end test automation boilerplate, using ES6-Modules, BabelJS, Jasmine and Expect.",
+  "description": "webdriverio end-to-end test automation boilerplate.",
   "devDependencies": {
     "@babel/cli": "7.8.4",
     "@babel/core": "7.8.7",
@@ -35,8 +35,13 @@
   },
   "keywords": [
     "babeljs",
+    "boilerplate",
+    "e2e",
+    "e2e tests",
     "es",
+    "example",
     "expect",
+    "integration test",
     "jasmine",
     "webdriverio"
   ],
