@@ -1,12 +1,12 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/webdriverio-es-modules-babel-jasmine-expect/issues"
   },
   "dependencies": {
     "@babel/register": "7.8.6"
   },
-  "description": "WebdriverIO end-to-end test automation boilerplate. Using Using ES Modules, Babel, Jasmine and Expect.",
+  "description": "WebdriverIO end-to-end test automation boilerplate. using ES Modules, Babel, Jasmine and Expect.",
   "devDependencies": {
     "@babel/cli": "7.8.4",
     "@babel/core": "7.8.7",
@@ -39,12 +39,7 @@
   },
   "keywords": [
     "babel",
-    "boilerplate",
-    "e2e",
-    "e2e tests",
-    "example",
     "expect",
-    "integration test",
     "jasmine",
     "webdriverio"
   ],
