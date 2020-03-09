@@ -6,7 +6,7 @@ WebdriverIO end-to-end test automation boilerplate, using ES Modules, Babel, Jas
 
 ## Getting Started
 
-    	git clone git@github.com:e2e-boilerplate/webdriverio-es-modules-babel-jasmine-expect.git
-    	cd webdriverio-es-modules-babel-jasmine-expect
-    	npm install
-    	npm run test
+    	1. git clone git@github.com:e2e-boilerplate/webdriverio-es-modules-babel-jasmine-expect.git
+    	2. cd webdriverio-es-modules-babel-jasmine-expect
+    	3. npm install
+    	4. npm run test
