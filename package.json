@@ -35,7 +35,7 @@
   "homepage": "https://github.com/e2e-boilerplate/webdriverio-es-modules-babel-jasmine-expect#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged --allow-empty"
     }
   },
   "keywords": [
