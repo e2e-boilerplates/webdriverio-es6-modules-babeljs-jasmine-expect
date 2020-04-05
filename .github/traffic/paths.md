@@ -1,0 +1,9 @@
+| referrer                                                                           | count | uniques |
+| :--------------------------------------------------------------------------------- | :---- | :------ |
+| /e2e-boilerplate/webdriverio-es-modules-babel-jasmine-expect/actions               | 2     | 2       |
+| /e2e-boilerplate/webdriverio-es-modules-babel-jasmine-expect/pull/29               | 2     | 1       |
+| /e2e-boilerplate/webdriverio-es-modules-babel-jasmine-expect                       | 1     | 1       |
+| /e2e-boilerplate/webdriverio-es-modules-babel-jasmine-expect/actions/runs/62581676 | 1     | 1       |
+| /e2e-boilerplate/webdriverio-es-modules-babel-jasmine-expect/pull/37               | 1     | 1       |
+| /e2e-boilerplate/webdriverio-es-modules-babel-jasmine-expect/pulls                 | 1     | 1       |
+| /e2e-boilerplate/webdriverio-es-modules-babel-jasmine-expect/runs/531981042        | 1     | 1       |
