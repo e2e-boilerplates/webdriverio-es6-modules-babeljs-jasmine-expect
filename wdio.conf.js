@@ -16,6 +16,7 @@ const headed = {
     defaultTimeoutInterval: 60000,
   },
   cucumberOpts: {},
+  // eslint-disable-next-line no-unused-vars
   before: (capabilities, specs) => {
     // eslint-disable-next-line import/no-extraneous-dependencies
     require("@babel/register");
@@ -43,6 +44,7 @@ const headless = {
     defaultTimeoutInterval: 60000,
   },
   cucumberOpts: {},
+  // eslint-disable-next-line no-unused-vars
   before: (capabilities, specs) => {
     // eslint-disable-next-line import/no-extraneous-dependencies
     require("@babel/register");
