@@ -1,4 +1,3 @@
-/* eslint no-unused-vars: 0, global-require: 0 */
 const headed = {
   runner: "local",
   path: "/",
@@ -12,10 +11,12 @@ const headed = {
   services: ["chromedriver"],
   framework: "jasmine",
   reporters: ["dot"],
+  mochaOpts: {},
   jasmineNodeOpts: {
     defaultTimeoutInterval: 60000,
   },
-  before(capabilities, specs) {
+  cucumberOpts: {},
+  before: (capabilities, specs) => {
     // eslint-disable-next-line import/no-extraneous-dependencies
     require("@babel/register");
   },
@@ -29,7 +30,7 @@ const headless = {
     {
       browserName: "chrome",
       "goog:chromeOptions": {
-        args: ["--headless", "--disable-gpu"],
+        args: ["--headless", "--disable-gpu"]
       },
     },
   ],
@@ -37,10 +38,12 @@ const headless = {
   services: ["chromedriver"],
   framework: "jasmine",
   reporters: ["dot"],
+  mochaOpts: {},
   jasmineNodeOpts: {
     defaultTimeoutInterval: 60000,
   },
-  before(capabilities, specs) {
+  cucumberOpts: {},
+  before: (capabilities, specs) => {
     // eslint-disable-next-line import/no-extraneous-dependencies
     require("@babel/register");
   },
