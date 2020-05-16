@@ -40,15 +40,16 @@
   },
   "keywords": [
     "babel",
-    "boilerplate",
+    "es modules",
+    "expect",
+    "jasmine",
+    "webdriverio",
     "e2e",
     "e2e tests",
-    "es modules",
-    "example",
-    "expect",
+    "boilerplate",
     "integration test",
-    "jasmine",
-    "webdriverio"
+    "test automation",
+    "javascript"
   ],
   "license": "MIT",
   "lint-staged": {
